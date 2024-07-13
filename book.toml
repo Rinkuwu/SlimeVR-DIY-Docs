@@ -5,3 +5,10 @@ multilingual = false
 src = "src"
 #[output.html.fold]
 #enable = true
+[preprocessor.last-changed]
+command = "mdbook-last-changed"
+renderer = ["html"]
+[output.html]
+# Optional: Your repository URL used in the link.
+git-repository-url = "https://github.com/Rinkuwu/SlimeVR-DIY-Docs"
+additional-css = ["./theme/last-changed.css"]
