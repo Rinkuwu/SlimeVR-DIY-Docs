@@ -3,7 +3,7 @@
 ---
 
 Motion Bias Estimation is an experimental method of reducing drift.  
-In simple terms, it uses the acceleration to measure gyroscope drift, and then compensates for that without the need to put the tracker down.
+In simple terms, it uses the acceleration to measure gyroscope bias, and then compensates for that without the need to put the tracker down.
 
 # Shrimping
 
