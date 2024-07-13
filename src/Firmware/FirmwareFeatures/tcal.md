@@ -1,6 +1,14 @@
-# Temperature Calibration
+# Temperature Calibration (TCAL)
 
 ---
+
+Tempature calibration is the process of lowering and raising the tempeature of the tracker so that it can record it's acceleration data at different temperature points and can apply that as an offset to combat drifting.
+
+TCAL is available for BMI160 IMUs on any recent firmware. BMI270 TCAL is available only on l0ud/main firmware. LSM6DSO and BNO085 do not have any TCAL implimentation (and they don't really need it).
+
+TCALv2 is better and supercedes TCALv1, though v1 is still present and data is collected for both during the process. [Source](https://discord.com/channels/817184208525983775/823930029070876736/1130053326264873010)
+
+If possible, TCAL is easist to perform on a heated 3d printer bed. The slightest amount of movement will abort the tcal calibration. So make sure it's performed on a stable non-moving surface. 
 
 ## TCALv1:
 <details>
