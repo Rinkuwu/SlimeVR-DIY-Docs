@@ -1,8 +1,10 @@
-# IMUs
+# Inertial Measurement Unit (IMU)
 
 ---
 
-[//]: # (Explaination of IMUs, list of IMUs linking to subdocs, historical IMUs that are not supported get honorable mention here?)
+IMUs do the actual "tracking" of SlimeVR trackers. They measure the position and rotation of the tracker and feed that data to the controller which sends it to the SlimeVR server.
+
+>Note: Purchasing IMUs from sources like AliExpress will not give you the full breakout board needed to join it to your board. Make sure the IMU you purchase is the full breakout board compatible with your PCB.
 
 ## Recommended IMUs & Drift Time:
 
@@ -19,3 +21,7 @@
 #### Unsupported/Archive
 - MPU
 - Joycons
+
+---
+
+Certain IMUs are compatible with others and work the same. For example, BMI160 and BMI270's are typically exchangeable on the same board as they output the same type of data.
